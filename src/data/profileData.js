@@ -125,16 +125,20 @@ export const experience = [
   },
 ];
 
+
 export const availability = {
-  status: "Currently available",
-  note: "Open to part-time work right now. Other arrangements aren't open at the moment.",
+  status: "Currently engaged",
+  note:
+    "Currently working full-time in my office and managing ongoing part-time client projects. While my current schedule is committed, I welcome inquiries about future opportunities. New part-time project availability begins in February 2027. Feel free to contact me to discuss your requirements and plan ahead.",
   options: [
-    { label: "Full-time", available: false },
-    { label: "Engaged", available: true },
-    { label: "Freelance", available: false },
-    { label: "Remote", available: false },
+    { label: "Full-time Role", available: false },
+    { label: "Existing Projects", available: true },
+    { label: "New Part-time Projects", available: false },
+    { label: "Future Opportunities", available: true },
+    { label: "Remote Collaboration", available: true },
   ],
 };
+
 
 export const navLinks = [
   { id: "home", label: "Home" },
