@@ -6,7 +6,7 @@
 
 export const profile = {
   name: "Inam",
-  role: "Java Backend Developer",
+  role: "Java Full Stack Developer",
   tagline: "Building reliable backend systems, one service at a time.",
   intro:
     "Java backend developer focused on designing dependable, well-tested microservices and learning the modern tooling around them.",
@@ -26,16 +26,21 @@ export const profile = {
 
 export const about = {
   whoIAm:
-    "I'm a backend-focused developer who enjoys turning ambiguous requirements into clean, dependable services.",
+    "I'm a software engineer focused on building scalable backend systems and reliable web applications, with a strong interest in clean architecture and solving complex problems.",
+
   whatIDo:
-    "I design and build REST APIs and microservices — from data modelling and business logic to authentication, deployment and monitoring.",
+    "I design and develop REST APIs and microservices, covering everything from data modeling and business logic to authentication, service integration, deployment, and monitoring.",
+
   experience:
-    "Hands-on experience building Spring Boot microservices end-to-end, including authentication (JWT, token rotation), API gateways, and service-to-service communication.",
+    "Experienced in building Spring Boot microservices end-to-end, implementing JWT-based authentication and token rotation, API gateways, and secure service-to-service communication.",
+
   interestedIn:
-    "Backend systems, distributed architectures, developer tooling, and platforms where correctness and reliability genuinely matter.",
+    "I'm passionate about backend engineering, distributed systems, microservice architecture, and building reliable platforms where performance, security, and correctness matter.",
+
   goals:
-    "Growing into a well-rounded backend/platform engineer, and eventually leading the design of systems rather than just building them.",
+    "My goal is to grow into a strong backend and platform engineer, contribute to architectural decisions, and eventually lead the design of scalable, resilient systems.",
 };
+
 
 // Grouped by area rather than a "Core / Working" level — every skill here
 // is one you actively use, so the grid speaks for itself without a badge.
@@ -90,13 +95,13 @@ export const experience = [
     project: "Digital Banking App",
     period: "Present",
     current: true,
-    detail: "Currently developing a digital banking application end-to-end.",
+    detail: "Currently developing a digital  banking application end-to-end(offline Transaction).",
   },
   {
     role: "Full Stack Developer",
     company: "Fusion Tech",
     project: "CRM Mortgage",
-    period: "6 months",
+    period: "9 months",
     current: false,
     detail: "Built and maintained a CRM platform for mortgage workflows.",
   },
@@ -105,7 +110,7 @@ export const experience = [
     company: "10Pearls",
     logoDomain: "10pearls.com",
     project: "Smart Contact Management System",
-    period: "3 months",
+    period: "4 months",
     current: false,
     detail: "Contributed to a smart contact management system as part of a full stack Java internship.",
   },
