@@ -130,7 +130,7 @@ export const availability = {
   note: "Open to part-time work right now. Other arrangements aren't open at the moment.",
   options: [
     { label: "Full-time", available: false },
-    { label: "Part-time", available: true },
+    { label: "Engaged", available: true },
     { label: "Freelance", available: false },
     { label: "Remote", available: false },
   ],
